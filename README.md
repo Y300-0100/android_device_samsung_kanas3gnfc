@@ -26,7 +26,7 @@ Than run comannd in terminal from your working dir
 
         . build/envsetup.sh
         lunch omni_kanas3gnfcxx-eng
-        . build/tools/device/makerecoveries.sh omni_kanas3gnfcxx-eng
+        make recoveryimage
 
 Your build will start and you will find your recovery. img in
 your working dir/out/target/product/kanas3gnfcxx
