@@ -39,7 +39,7 @@ and run comands:
 
         tar -H ustar -c recovery.img > recovery.tar
         md5sum -t recovery.tar >> recovery.tar
-        mv recovery.tar recovery.tar.md5mv recovery.tar recovery.tar.md5
+        mv recovery.tar recovery.tar.md5
         
 An now you got recovery.tar.md5 ready to be flashed usin ODIN selected as PDA file
 
