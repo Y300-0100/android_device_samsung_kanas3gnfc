@@ -16,13 +16,14 @@ on init
     export LD_LIBRARY_PATH .:/sbin
     export ANDROID_ROOT /system
     export ANDROID_DATA /data
-    export EXTERNAL_STORAGE /sdcard
+    export EXTERNAL_STORAGE /external_sd
+    export INTERNAL_STORAGE /internal_sd 
 
     symlink /system/etc /etc
 
     mkdir /boot
     mkdir /recovery
-    mkdir /sdcard
+    mkdir /external_sd
     mkdir /internal_sd
     mkdir /system
     mkdir /data
