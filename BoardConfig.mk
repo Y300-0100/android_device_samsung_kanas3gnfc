@@ -36,7 +36,7 @@ BOARD_DATA_DEVICE := /dev/block/mmcblk0p22
 BOARD_DATA_FILESYSTEM := ext4
 BOARD_DATA_FILESYSTEM_OPTIONS := rw
 
-# TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/virtual/android_usb/android0/f_mass_storage/lun%d/file
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/virtual/android_usb/android0/f_mass_storage/lun0/file
 
 # Recovery
 BOARD_HAS_NO_SELECT_BUTTON := true
