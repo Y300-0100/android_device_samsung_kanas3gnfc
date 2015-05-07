@@ -28,6 +28,5 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := omni_kanas3gnfcxx
 PRODUCT_DEVICE := kanas3gnfcxx
-PRODUCT_BRAND := samsung
-PRODUCT_MODEL := kanas3gnfcxx
-
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := SM-G355HN
