@@ -43,7 +43,6 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_PREBUILT_KERNEL := device/samsung/kanas3gnfcxx/kernel
 TARGET_RECOVERY_INITRC := device/samsung/kanas3gnfcxx/init.rc
 TARGET_RECOVERY_FSTAB := device/samsung/kanas3gnfcxx/recovery.fstab
-TARGET_INIT_RECOVERY_RC := device/samsung/kanas3gnfcxx/init.recovery.rc
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 DEVICE_RESOLUTION := 480x800
