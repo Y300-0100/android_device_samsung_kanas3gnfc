@@ -1,6 +1,6 @@
 # twrp_samsung_kanas3gnfcxx
 Device configuration for Samsung Galaxy Core II SM-G355HN For TWRP Only 
-android_device_samsung_kanas3gnfc
+android_device_samsung_kanas3gnfcxx
 ===================================
 
                        instruction how to build
@@ -8,18 +8,18 @@ android_device_samsung_kanas3gnfc
 I think you already set up build enviroment so I will skip this.
 
 After you finshed repo sync (cm sources) go in your working dir ../device/
-and create folder /samsung/kanas3gnfc and copy content of kanas3gnfc
+and create folder /samsung/kanas3gnfc and copy content of kanas3gnfcxx
 that you downloaded from here.
 Replace (CM) android/bootable/recovery whit this one : https://github.com/omnirom/android_bootable_recovery
 
 Than run comannd in terminal from your working dir
 
         . build/envsetup.sh
-        lunch omni_kanas3gnfc-userdebug
+        lunch omni_kanas3gnfcxx-userdebug
         make recoveryimage
 
 Your build will start and you will find your recovery. img in
-your working dir ../out/target/product/kanas3gnfc
+your working dir ../out/target/product/kanas3gnfcxx
 
 To make it flashable via ODIN you have to make it recovery.tar.md5
 Navigate with terminal where your recovey.img is.

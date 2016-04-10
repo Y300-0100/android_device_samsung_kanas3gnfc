@@ -1,3 +1,3 @@
-ifneq ($(filter kanas3gnfc,$(TARGET_DEVICE)),)
+ifneq ($(filter kanas3gnfcxx,$(TARGET_DEVICE)),)
     include $(all-subdir-makefiles)
 endif

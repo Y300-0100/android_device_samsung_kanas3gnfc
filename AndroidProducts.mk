@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_kanas3gnfc.mk
+    $(LOCAL_DIR)/omni_kanas3gnfcxx.mk
